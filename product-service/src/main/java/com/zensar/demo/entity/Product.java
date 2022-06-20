@@ -25,7 +25,7 @@ public class Product {
 		super();
 		this.productId = productId;
 		this.productName = productName;
-		this.productPrize = productCost;
+		this.productCost = productCost;
 	}
 
 	public int getProductId() {
