@@ -15,7 +15,7 @@ public class Product {
 	@Id
 	private int productId;
 	private String productName;
-	private int productPrize;
+	private int productCost;
 
 	public Product() {
 		super();
@@ -25,7 +25,7 @@ public class Product {
 		super();
 		this.productId = productId;
 		this.productName = productName;
-		this.productPrize = productPrize;
+		this.productPrize = productCost;
 	}
 
 	public int getProductId() {
@@ -44,17 +44,17 @@ public class Product {
 		this.productName = productName;
 	}
 
-	public int getProductPrize() {
-		return productPrize;
+	public int getProductCost() {
+		return productCost;
 	}
 
 	public void setProductCost(int productCost) {
-		this.productPrize = productPrize;
+		this.productCost = productCost;
 	}
 
 	@Override
 	public String toString() {
-		return "Product [productId=" + productId + ", productName=" + productName + ", productPrize=" + productPrize
+		return "Product [productId=" + productId + ", productName=" + productName + ", productCost=" + productCost
 				+ "]";
 	}
 
